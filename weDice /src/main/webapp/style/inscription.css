@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+/* Inscription CSS */
+body {
+    background-image: url('../images/dice23.jpeg');
+    background-size: cover;
+    overflow: auto; /* Hide scrollbar */
+}
+
+.container {
+    max-width: 350px;
+    padding: 30px;
+    margin: 80px auto ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+}
+
+.form-signin {
+    text-align: center;
+}
+
+.form-signin h2 {
+    margin-bottom: 20px;
+    font-size: 28px; /* Larger font size */
+    color: #3498db; 
+}
+
+.form-control {
+    padding: 15px 20px;
+    margin-bottom: 20px; /* Increase bottom margin */
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 25px; /* Rounded corners */
+    background-color: #ecf0f1; /* Light gray background */
+    box-shadow: inset 0 2px 0 rgba(0,0,0,0.05); /* Subtle inset shadow */
+    width: 100%; /* Set input width to 100% */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.form-control:focus {
+    border-color: #3498db; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-group label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-group input {
+    flex: 2;
+}
+
+.btn-primary {
+    background-color: #e74c3c; /* Bright red */
+    border-color: #e74c3c;
+    font-weight: bold;
+    padding: 15px 30px; /* Increase padding */
+    border-radius: 25px; /* Rounded corners */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.btn-primary:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+a {
+    color: #3498db; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 10px; /* Increase bottom margin */
+    font-size: 16px; /* Adjust font size */
+}
+
+.message-warn {
+    color: #f39c12; /* Orange for warnings */
+}
+
+.message-info {
+    color: #3498db; /* Blue for info messages */
+}
+
+.message-error {
+    color: #e74c3c; /* Red for error messages */
+}

@@ -1,0 +1,59 @@
+/* custom-styles.css */
+
+/* Gradient background for the body */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.gradient-bg {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #f4842f;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #f58430;
+    color: #fff;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

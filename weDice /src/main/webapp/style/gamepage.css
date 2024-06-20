@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+
+/* gamepage.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.user-section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.user-section h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.button, .logout-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.button:hover, .logout-button:hover {
+    background: #ff8860;
+}
+
+.logout-button {
+    background: #f94f4f;
+}
+
+.logout-button:hover {
+    background: #ff6b6b;
+}
+
+form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #45a049;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Game message styling */
+.game-message {
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    animation: fadeIn 1s ease-in-out;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
