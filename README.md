@@ -37,8 +37,11 @@ Error.jsp: Shows error messages.
 - How It Works
 
 1- Registration and Login: Users register and log in using UserManagementServlet and LoginServlet.
-![Screenshot 2024-06-20 at 23 03 32](https://github.com/AmmariHiba/DiceGame/assets/121461519/1b730c2e-714!f-4556-b1ab-51615c8feb3a)
-[Screenshot 2024-06-20 at 23 03 25](https://github.com/AmmariHiba/DiceGame/assets/121461519/e558a24e-0413-4230-80ea-652ca40128ea)
+![Screenshot 2024-06-20 at 23 03 32](https://github.com/AmmariHiba/DiceGame/assets/121461519/cad4f668-ca2c-43cb-9436-169330ac8980)
+
+![Screenshot 2024-06-20 at 23 03 25](https://github.com/AmmariHiba/DiceGame/assets/121461519/ab438866-2b74-4e2f-828e-d1d4e3dd0e28)
+
+
 
 2- Starting a Game: Clicking "Nouvelle partie" directs users to NewGameServlet to begin a new game session.
 ![Screenshot 2024-06-20 at 22 55 11](https://github.com/AmmariHiba/DiceGame/assets/121461519/624d0626-2018-4ec2-ae3a-357993fee97f)
