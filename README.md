@@ -1,4 +1,4 @@
-# DiceGame
+# WeDice
 # Overview
 This project is a simple dice game implemented using Java EE (Jakarta EE) concepts and tools. The game allows users to log in, play a dice game, and view their scores. It showcases the use of servlets, filters, sessions, and JSPs in a dynamic web application.
 
