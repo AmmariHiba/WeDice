@@ -34,7 +34,7 @@ GamePage.jsp: Main game interface for rolling dice and viewing scores.
 ScorePage.jsp: Displays scores.
 Error.jsp: Shows error messages.
 
-- How It Works
+# How It Works
 
 1- Registration and Login: Users register and log in using UserManagementServlet and LoginServlet.
 ![Screenshot 2024-06-20 at 23 03 32](https://github.com/AmmariHiba/DiceGame/assets/121461519/cad4f668-ca2c-43cb-9436-169330ac8980)
